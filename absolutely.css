@@ -1,4 +1,6 @@
 body {
+	padding: 0;
+	margin: 0;
 	text-align : center;
 	font-family : Tahoma;
 	font-size : 14px;
@@ -12,5 +14,116 @@ body {
 	min-height : 600px;
 	background-image : url(bg.jpg);
 	border : 4px solid red;
+	position: relative;
+	top: -30px;
 }
-
+#navbar {
+	background: url(bar1.png);
+	width: 100%;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+#navbar:hover {
+	background: url(bar2.png);
+	width: 100%;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+.links {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 45px;
+	text-decoration: none;
+	color: grey;
+}
+#navbar:hover .links {
+	color: black;
+}
+#title {
+	position: relative;
+	top: -170px;
+	left: 20px;
+}
+#saw {
+	position: relative;
+	left: -350px;
+	bottom: -50px;
+}
+#hammer {
+	position: relative;
+	top: -65px;
+	left: -10px;
+}
+#pincers {
+	position: relative;
+	right: -560px;
+	bottom: 10px;
+}
+#screwdriver {
+	position: relative;
+	right: -350px;
+	top: -140px;
+}
+#toolbox {
+	position: relative;
+	left: -170px;
+	top: -30px;
+}
+main {
+	background: rgba(255,255,255,0.5);
+}
+h1 {
+	padding-top: 10px;
+	font-size: 21.4px;
+}
+p{
+	font-size: 13.5px;
+}
+h1, p {
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+p:last-child {
+	padding-bottom: 10px;
+}
+ul {
+	display: none;
+	position: absolute;
+	list-style-type: none;
+	top: -53px;
+	left: -40px;
+}
+#toolbox:hover ul {
+	display: block;
+}
+ul li a {
+	text-decoration: none;
+	background: white;
+	border: 1px black solid;
+	padding: 5px;
+	display: block;
+	width: 85px;
+}
+ul li a:hover {
+	background: rgb(255,255,160);
+}
+#humanfactor {
+	color: blue;
+}
+#humanfactor span {
+	display: none;
+	position: absolute;
+	width: 210px;
+	border: 2px blue solid;
+	border-radius: 5px;
+	background: white;
+	padding: 3px;
+	right: -17px;
+	color: black;
+}
+#humanfactor:hover span {
+	display: block;
+}
