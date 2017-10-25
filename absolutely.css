@@ -51,20 +51,40 @@ body {
 	left: -350px;
 	bottom: -50px;
 }
+#saw:hover {
+	position: relative;
+	left: -340px;
+	bottom: -55px;
+}
 #hammer {
 	position: relative;
 	top: -65px;
 	left: -10px;
+}
+#hammer:hover {
+	position: relative;
+	top: -55px;
+	left: -15px;
 }
 #pincers {
 	position: relative;
 	right: -560px;
 	bottom: 10px;
 }
+#pincers:hover {
+	position: relative;
+	right: -550px;
+	bottom: 15px;
+}
 #screwdriver {
 	position: relative;
 	right: -350px;
 	top: -140px;
+}
+#screwdriver:hover {
+	position: relative;
+	right: -340px;
+	top: -135px;
 }
 #toolbox {
 	position: relative;
